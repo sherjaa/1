@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fon{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+}
+.box{
+    background-color: aliceblue;
+    width: 500px;
+    height: 480px;
+}
+.der{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qwer{
+    text-align: center;
+    font-size: 50px;
+    color: darkgray;
+}
+.qwert{
+    text-align: center;
+    text-transform: uppercase;
+    padding:0 0 20px 0;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+.nomi{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.cards{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    display: flex;
+}
+.check {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.radio:checked ~ .check {
+    background-image: url('check.svg');
+}
+.label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 7px;
+}  
+.check {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.radio:checked ~ .check {
+    background-image: url('../img/check.svg');
+}
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      border: 0;
+      margin: -1px;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
+}
+.label:first-child {
+    margin-bottom: 20px;
+} 
+.btn {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    width: 500px;
+    padding: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1s;
+    text-transform: uppercase;
+    transition: 1s;
+
+}
+.success {
+    border: none;
+    font-size: 20px;
+    color: rgba(233, 165, 6, 0.582);
+    transition: 1s;
+
+}
+.bx{
+    border: none;
+    font-size: 20px;
+    color: rgba(233, 165, 6, 0.582);
+
+}
+  
+.success:hover .bx{
+    margin-left: 15px;
+    transition: .4s;
+}  
